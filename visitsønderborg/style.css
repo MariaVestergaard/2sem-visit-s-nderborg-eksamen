@@ -1,0 +1,66 @@
+
+body{
+    margin: 0;
+}
+
+header{
+background-color: #932F2F;
+
+
+}
+
+.main-intro{
+    background-image: url(Borgen-Kim-Toft-Jørgensen.jpg);
+    background-size: cover;
+    
+}
+
+.main-intro-text-box{
+    background-color: black;
+    
+}
+
+.en-dag i {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.en-dag p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+.en-dag img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.slider {
+    position: relative;
+    max-width: 80%;
+    margin: 40px auto;
+}
+.slides {
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.slides .slide_image {
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.navigation button {
+    border: none;
+    background-color: #ddd;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.navigation button.active {
+    background-color: #333;
+}

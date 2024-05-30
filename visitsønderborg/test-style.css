@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #d32f2f;
+    color: white;
+}
+header .logo {
+    font-size: 1.5em;
+}
+nav {
+    display: flex;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+nav a:hover {
+    color: #ffeb3b;
+}
+nav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ffeb3b;
+    transition: width .3s;
+}
+nav a:hover::after {
+    width: 100%;
+}
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.hamburger-menu div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+    .hamburger-menu {
+        display: flex;
+    }
+}
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.hero .content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    border-radius: 5px;
+}
+.slider-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+.slider-buttons button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+}
+.survey {
+    padding: 40px 20px;
+    text-align: center;
+}
+.survey h2 {
+    margin-bottom: 20px;
+}
+.survey .progress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.survey .progress div {
+    background-color: #d32f2f;
+    height: 10px;
+    width: 0;
+    transition: width 0.3s;
+}
+.survey .question-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.survey .question {
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.survey .question:hover {
+    transform: scale(1.05);
+}
+.survey .question img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.survey .navigation {
+    margin-top: 20px;
+}
+.survey .navigation button {
+    padding: 10px 20px;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.survey .navigation button:hover {
+    background-color: #b71c1c;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test-style.css">
+</head>
+<body>
+    <div class="logo">Logo</div>
+    <nav>
+        <a href="#">Aktiv sammen</a>
+        <a href="#">Historie</a>
+        <a href="#">Natur</a>
+        <a href="#">Overnatning</a>
+        <a href="#">Events</a>
+        <a href="#">Rute til dig</a>
+        <a href="#">Information</a>
+    </nav>
+    <div class="hamburger-menu" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</header>
+
+<div class="hero">
+    <div class="overlay"></div>
+    <div class="content" id="hero-content">
+        <h1>Velkommen til Sønderborg</h1>
+        <p>Oplev den smukke by og få en skræddersyet oplevelse.</p>
+    </div>
+    <div class="slider-buttons">
+        <button onclick="previousSlide()">&#10094;</button>
+        <button onclick="nextSlide()">&#10095;</button>
+    </div>
+</div>
+
+<section class="survey">
+    <h2>Få din egen rute her</h2>
+    <p>Besvar spørgsmålene og få en rute specielt lavet til dig.</p>
+    <div class="progress"><div id="progress-bar"></div></div>
+    <div class="question-container" id="question-container"></div>
+    <div class="navigation">
+        <button id="next-button" onclick="nextQuestion()">Næste</button>
+    </div>
+</section>
+
+
+    
+</body>
+</html>

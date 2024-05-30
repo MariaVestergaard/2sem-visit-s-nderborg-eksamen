@@ -1,23 +1,39 @@
 
 body{
     margin: 0;
+    max-width: 1280px;
 }
 
 header{
 background-color: #932F2F;
-
-
+position: relative;
+background-size: cover;
+background-position: center;
 }
 
-.main-intro{
-    background-image: url(Borgen-Kim-Toft-Jørgensen.jpg);
-    background-size: cover;
+img{
+    max-width: 250px;
     
 }
 
+
+
+@media screen and (max-width: 1280px) {
+    .main-intro{
+        background-image: url(Borgen-Kim-Toft-Jørgensen.jpg);
+        max-width: 1280px;
+        min-height: 720px;
+        display: flex;
+    }
+    .logo{
+        max-width: 250px;
+        max-height: 100px;
+    }
+}
 .main-intro-text-box{
     background-color: black;
-    
+    max-width: 250px;
+    max-height: 250px;
 }
 
 .en-dag i {

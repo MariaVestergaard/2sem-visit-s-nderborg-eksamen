@@ -7,9 +7,54 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+   
     <header>
-        <img class="logo" src="visit-sønderborg-svg-logo-white.svg" alt="">
+        <section class="logo"> <img src="visit-sønderborg-svg-logo-white.svg" alt=""></section>
+      
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#Aktiv sammen">Aktiv sammen</a></li>
+                <li><a href="#Historie">Historie</a></li>
+                <li><a href="#Natur">Natur</a></li>
+                <li><a href="#Ruter til dig">Ruter til dig</a></li>
+                <li><a href="#Overnatning">Overnatning</a></li>
+                <li><a href="#Events">Events</a></li>
+                <li><a href="#Information">Information</a></li>
+            </ul>
+            <section class="hamburger">
+            
+                <span></span>
+                <span></span>
+                <span></span>
+            </section>
+        </nav>
     </header>
+
+    <section class="index-top-slider">
+        <section class="slide" id="slide1">
+            <img src="Torve-dag-sonderborg-kim-toft-jorgensen-sonderborg-kommune.jpg" alt="Image 1">
+
+           <section class="text-overlay"><p>Text for Image 1</p></section>
+        
+        </section>
+
+        <section class="slide" id="slide2">
+            <img src="sønder-havne-gade-tur-kim-toft-jorgensen.jpg" alt="Image 2">
+
+            <section class="text-overlay"> <p>Text for image 2</p></section>
+    </section>
+
+<section class="slide" id="slide3">
+            <img src="Borgen-Kim-Toft-Jørgensen.jpg" alt="Image 3">
+            <section class="text-overlay"> <p>Text for image 3</p></section>
+        </section>
+
+
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </section>
+
+
     <section class="main-intro">
 
    
@@ -33,27 +78,92 @@
         <img src="ungt-par-Kim-Toft-Jorgensen.jpg" alt="">
     </section>
 
-    <section class="en-dag">
-        <h2>En dag i Sønderborg</h2>
-        <p>Besvar nogle spørgsmål og få en rute specielt lavet til dig selv.</p>
-        <img src="ungt-par-tur-Kim-Toft-Jorgensen-Sonderborg-kommune.jpg" alt="En dag i Sønderborg" onclick="window.location.href='rute-side.html'">
-    </section>
 
-    <section class="slider">
-        <section class="slides">
-    
-            <img class="slide_image" src="sønder-havne-gade-tur-kim-toft-jorgensen.jpg" alt="Rute 1">
-            <img class="slide_image" src="sonderborg-slot-Kim-Toft-jorgensen-sonderborg-kommune.jpg" alt="Rute 2">
-            <img class="slide_image" src="Torve-dag-sonderborg-kim-toft-jorgensen-sonderborg-kommune.jpg" alt="Rute 3">
+    <section class="small-slider"> 
+   
+   
+        <section class="small-slide" id="small-slide1">
+            <a href="https://example1.com" target="_blank">
+                <img src="Torve-dag-sonderborg-kim-toft-jorgensen-sonderborg-kommune.jpg" alt="Image 1">
+                <section class="bottom-text-overlay">Description for Image 1</section>
+            </a>
+        </section>
+
+
+
         
+        <section class="small-slide" id="small-slide2">
+            <a href="https://example2.com" target="_blank">
+                <img src="ungt-par-tur-Kim-Toft-Jorgensen-Sonderborg-kommune.jpg" alt="Image 2">
+                <section class="bottom-text-overlay">Description for Image 2</section>
+                
+            </a>
+        </section>
+
+
+        <section class="small-slide" id="small-slide4">
+        
+            <a href="https://example3.com" target="_blank">
+                <img src="Borgen-Kim-Toft-Jørgensen.jpg" alt="Image 3">
+                <section class="bottom-text-overlay">Description for Image 3</section>
+            </a>
+        </section>
+
+
+      
+        <section class="small-slide" id="small-slide4">
+            <a href="https://example4.com" target="_blank">
+                <img src="alsik-point-view-kim-toft-jorgensen.jpg" alt="Image 4">
+                <section class="bottom-text-overlay">Description for Image 4</section>
+            </a>
+        </section>
+
+
+
+
+        
+        <section class="small-slide" id="small-slide5">
+
+        
+            <a href="https://example5.com" target="_blank">
+                <img src="sønder-havne-gade-tur-kim-toft-jorgensen.jpg" alt="Image 5">
+                <section class="bottom-text-overlay">Description for Image 5</section>
+            </a>
+        
+        </section>
+
+
+
+        <section class="small-slide" id="small-slide6">
+            <a href="https://example6.com" target="_blank">
+                <img src="Borgen-Kim-Toft-Jørgensen.jpg" alt="Image 6">
+                <section class="bottom-text-overlay">Description for Image 6</section>
+            </a>
+         </section>
+        <a class="small-slide-prev" onclick="changeSmallSlide(-1)">&#10094;</a>
+        <a class="small-slide-next" onclick="changeSmallSlide(1)">&#10095;</a>
+    
+</section>
+    
+
+  <footer>
+
+    <section class="footer-text-left">
+        <h3>Visit Sønderborg</h3>
+        <p>Perlegade 50</p>
+        <p>6400 Sønderborg</p>
+        <p>Tlf: +45 74 43 35 55</p>
+        <p>info@visitsonderborg.com</p>
     </section>
 
-    <section class="navigation">
-            <button class="active" onclick="showSlide(0)"></button>
-            <button onclick="showSlide(1)"></button>
-            <button onclick="showSlide(2)"></button>
-    </section>
-    </section>
+    <section class=""></section>
+
+
+
+  </footer> 
+
+
+
            
     <script src="script.js"></script>
 </body>

@@ -4,31 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="test-style.css">
 </head>
 <body>
-    <section class="en-dag">
-        <h2>En dag i Sønderborg</h2>
-        <p>Besvar nogle spørgsmål og få en rute specielt lavet til dig selv.</p>
-        <img src="ungt-par-tur-Kim-Toft-Jorgensen-Sonderborg-kommune.jpg" alt="En dag i Sønderborg" onclick="window.location.href='rute-side.html'">
-    </section>
 
-    <section class="slider">
-        <section class="slides">
-    
-            <img src="sønder-havne-gade-tur-kim-toft-jorgensen.jpg" alt="Rute 1">
-            <img src="sonderborg-slot-Kim-Toft-jorgensen-sonderborg-kommune.jpg" alt="Rute 2">
-            <img src="Torve-dag-sonderborg-kim-toft-jorgensen-sonderborg-kommune.jpg" alt="Rute 3">
+
+   <section class="small-slider"> 
+   
+   
+        <section class="small-slide" id="small-slide1">
+            <a href="https://example1.com" target="_blank">
+                <img src="Torve-dag-sonderborg-kim-toft-jorgensen-sonderborg-kommune.jpg" alt="Image 1">
+                <section class="bottom-text-overlay">Description for Image 1</section>
+            </a>
+        </section>
+
+
+
         
-    </section>
+        <section class="small-slide" id="small-slide2">
+            <a href="https://example2.com" target="_blank">
+                <img src="ungt-par-tur-Kim-Toft-Jorgensen-Sonderborg-kommune.jpg" alt="Image 2">
+                <section class="bottom-text-overlay">Description for Image 2</section>
+                
+            </a>
+        </section>
 
-    <section class="navigation">
-            <button class="active" onclick="showSlide(0)"></button>
-            <button onclick="showSlide(1)"></button>
-            <button onclick="showSlide(2)"></button>
-    </section>
-    </section>
-           
-    <script src="script.js"></script>
+
+        <section class="small-slide" id="small-slide4">
+        
+            <a href="https://example3.com" target="_blank">
+                <img src="Borgen-Kim-Toft-Jørgensen.jpg" alt="Image 3">
+                <section class="bottom-text-overlay">Description for Image 3</section>
+            </a>
+        </section>
+
+
+      
+        <section class="small-slide" id="small-slide4">
+            <a href="https://example4.com" target="_blank">
+                <img src="alsik-point-view-kim-toft-jorgensen.jpg" alt="Image 4">
+                <section class="bottom-text-overlay">Description for Image 4</section>
+            </a>
+        </section>
+
+
+
+
+        
+        <section class="small-slide" id="small-slide5">
+
+        
+            <a href="https://example5.com" target="_blank">
+                <img src="sønder-havne-gade-tur-kim-toft-jorgensen.jpg" alt="Image 5">
+                <section class="bottom-text-overlay">Description for Image 5</section>
+            </a>
+        
+        </section>
+
+
+
+        <section class="small-slide" id="small-slide6">
+            <a href="https://example6.com" target="_blank">
+                <img src="Borgen-Kim-Toft-Jørgensen.jpg" alt="Image 6">
+                <section class="bottom-text-overlay">Description for Image 6</section>
+            </a>
+         </section>
+        <a class="small-slide-prev" onclick="changeSmallSlide(-1)">&#10094;</a>
+        <a class="small-slide-next" onclick="changeSmallSlide(1)">&#10095;</a>
+    
+</section>
+
+
+
+  
+
+    <script src="test.js"></script>
 </body>
 </html>

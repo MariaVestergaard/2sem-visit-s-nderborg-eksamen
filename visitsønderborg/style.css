@@ -225,3 +225,47 @@ nav {
         display: flex;
     }
 }
+
+
+
+/* En dag i sønderborg*/ 
+
+.sections-container {
+    padding: 20px;
+    max-width: 600px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    background-color: #F2E1E1;
+    padding: 10px;
+    border-radius: 5px;
+}
+.section img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.section .text-container {
+    display: flex;
+    flex-direction: column;
+}
+.section .text-container h3 {
+    margin: 0;
+    font-size: 18px;
+}
+.section .text-container p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+.distance-indicator {
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 0;
+}

@@ -22,7 +22,7 @@ function changeSlide(n) {
 }
 
 
-//lille slider
+//lille slider hvilket også er lavet ved  hjælp at chat gpt da den genbruger kode fra ovenover
 let smallSlideIndex = 0;
 showSmallSlides();
 

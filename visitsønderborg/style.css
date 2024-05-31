@@ -11,9 +11,31 @@ background-color: #932F2F;
 
 }
 
+footer{
+
+    background-color: #932F2F;
+display: grid;
+grid-template-columns: 1fr 2fr 1fr;
+}
+
+.footer-text-left{
+    color: white;
+    display: grid;
+   
+
+}
+
+.footer-text-right{
+    color: white;
+    display: grid;
+    justify-content: end;
+}
+
+
 .main-selection img{
     max-width: 500px;
     position: center;
+    
 }
 
 /* Den image slider man ser først på index */

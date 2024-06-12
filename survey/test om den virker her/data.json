@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Vi har lidt af hvert for alle alene eller ej vi kan planlægge det for dig.",
+        "options": ["guy-alone.svg", "guy-dog.svg", "partner.svg", "family-kids.svg"]
+    },
+    {
+        "question": "Hvordan ønsker du at komme rundt på dit eventyr?",
+        "options": ["family-kids.svg", "bike-ride.svg", "car-fam.svg", "family-bus.svg"]
+    },
+    {
+        "question": "Alle kan selvfølgelig blive trætte så hvordan ønsker du dine pauser er?",
+        "options": ["playground.svg", "family-bench.svg", "family-eat.svg", "family-hotel.svg"]
+    },
+    {
+        "question": "Hvilke aktiviteter frister mest?",
+        "options": ["history.svg", "shopping.svg", "beach.svg", "family-forest.svg"]
+    },
+    {
+        "question": "Og hvor langt et eventyr ønskes der?",
+        "options": ["four-km.svg", "six-km.svg", "eight-km.svg", "ten-km.svg"]
+    }
+]
